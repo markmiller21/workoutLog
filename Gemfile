@@ -38,6 +38,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13.0'
   gem 'selenium-webdriver'
+  gem 'pry-rails'
 end
 
 group :development do
@@ -57,3 +58,8 @@ gem 'bootstrap', '~> 4.0.0.alpha3.1'
 gem 'react-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+# Rails Assets Gems
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
